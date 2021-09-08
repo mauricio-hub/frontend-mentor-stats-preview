@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,300;0,400;0,600;1,300;1,400;1,500;1,600&family=Inter:wght@100;200;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Inter', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+  
+}
+
+section{
+    height: auto;
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+    
+.card{
+    overflow: hidden;
+    border-radius: 8px;
+     margin: 20px auto;
+     height: auto;
+     width: 90%;
+     color: white;
+     background-color:  hsl(244, 38%, 16%);
+     overflow: hidden;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+.card
+.card-img{
+    height: 300px;
+    background-image: linear-gradient(
+      rgba(196, 70, 207, 0.45), 
+      rgba(142, 71, 175, 0.45)
+    ),url(./images/image-header-mobile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+span{
+    color:  hsl(277, 64%, 61%);
+}
+
+ .card-content{
+    margin: 20px auto;
+    text-align: center;
+}
+ h1{
+     margin: 0 auto;
+    width:245px;
+    
+    font-weight: bold;
+} 
+
+p{
+    margin: 10px auto;
+    width: 230px;
+    line-height: 20px;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+.description{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.description .box p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.description .box span{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 10px;
+} 
+
+
+@media (min-width:700px) {
+
+   .card{       
+        margin: 120px auto;
+        
+        height: 340px;
+        width: 80%;
+        min-width: 400px;
+        max-width: 900px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: left;
+        color:white;
+        min-height: 340px;
+        max-height: 340px;
+        background-color:  hsl(244, 38%, 16%);
+    }
+
+ .card-img{
+        height: auto;
+        min-height: 340px;
+        max-height: 340px;
+        background-image: linear-gradient(
+          rgba(196, 70, 207, 0.45), 
+          rgba(142, 71, 175, 0.45)
+        ),url(./images/image-header-desktop.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .order{
+        order:1;
+    }
+
+    
+    .item{
+        width: 50%;
+
+    }
+
+
+     .card-content{
+        margin: 0px auto;
+        text-align: left;
+        padding: 40px;
+         display: flex ;
+         flex-direction: column;
+        
+     } 
+     h1{
+
+        margin: 0;
+        
+         width: 330px;
+         font-size: 30px;
+     }  
+
+     
+
+    .card-content p{
+        
+        margin: 12px 0px;
+       
+        font-size: 14px;
+        line-height:20px ;
+        width: 260px;
+    }
+
+    .description{
+       margin-top: 16px;
+        display: flex;
+
+
+    }
+.description .box:nth-child(2){
+    margin-left:-100px ;
+}
+.description .box:nth-child(3){
+    margin-left:-100px ;
+}
+
+    .description .box span{
+        color:hsla(0, 0%, 100%, 0.75);
+        font-size: 10px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
